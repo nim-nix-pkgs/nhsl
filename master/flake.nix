@@ -11,6 +11,7 @@
   inputs.src-nhsl-master.ref   = "refs/heads/master";
   inputs.src-nhsl-master.owner = "twist-vector";
   inputs.src-nhsl-master.repo  = "nhsl";
+  inputs.src-nhsl-master.dir   = "";
   inputs.src-nhsl-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
